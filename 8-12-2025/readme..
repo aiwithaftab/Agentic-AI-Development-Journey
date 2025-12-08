@@ -1,1 +1,43 @@
+<!-- 👋 Heading and Tagline -->
+<h1 align="center">Learning: AI Agent Class Structure</h1>
+<h3 align="center">🚀 To create a foundational structure for an AI agent capable of goal-driven behavior, action execution, and memory-based reasoning.</h3>
 
+Key Concepts Learned Today:
+
+Agent Class Design
+
+The Agent class encapsulates the main components of an AI agent:
+
+Goals: What the agent is trying to achieve (goal: List[Goal]).
+
+Language Model Interface: Defines how the agent constructs prompts and generates responses (agent_language: AgentLanguage).
+
+Response Generation: A callable function to produce responses based on prompts (generate_response: Callable).
+
+Actions: Registry of actions the agent can perform (action_registry: ActionRegistry).
+
+Environment: The agent's context or external environment (environment: Environment).
+
+Prompt Construction
+
+construct_prompt() method demonstrates how the agent formulates a prompt for reasoning:
+
+Combines current goals, memory, and available actions.
+
+Uses agent_language to structure the prompt properly.
+
+Lessons Learned / Takeaways
+
+Clear separation of responsibilities: language handling, action registry, memory, and environment.
+
+Importance of type hints for maintainable code (List[Goal], Callable, etc.).
+
+Learned to start modularizing agent behavior for easier experimentation with agentic AI.
+
+Next Steps
+
+Implement memory handling to allow multi-step reasoning.
+
+Create sample actions and integrate them into the action_registry.
+
+Test generate_response with a simple language model interface.
