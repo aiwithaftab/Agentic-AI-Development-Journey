@@ -1,0 +1,46 @@
+import json
+import time
+import traceback
+from litellm import completion
+from typing import List, Dict, Callable, Any
+from dataclasses import dataclass, field
+
+
+@dataclass
+class Prompt:
+
+  messages: List[Dict] = field(default_factory=list)
+  tools: List[Dict] = field(default_factory=list)
+  metadata: Dict = field(default_factory=dict)
+
+def generate_response(prompt: Prompt) -> str:
+  
+  messages = prompt.messages
+  tools = prompt.tools
+  response = None
+
+  if not tools:
+    response = completion(
+        model = "groq/llama-3.3-70b-versatile",
+        messages = messages,
+        tools = tools,
+        max_tokens = 1024
+    )
+    return response['choices'][0]['message']['content']
+  else:
+    response = completion(
+        model = "groq/llama-3.3-70b-versatile",
+        messages = messages,
+        tools = tools,
+        max_tokens = 1024
+    )
+    if response.choices[0].message.tool_calls:
+      result = {
+          tool = response.choices[0].message.tool_calls[0]
+          args = json.loads(tool.function.arguments)
+          }
+      result = json.dumps(result)
+    else:
+      response.choices[0].message.content
+      
+  return result
