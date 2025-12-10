@@ -11,8 +11,6 @@
 ## 🔍 About this repo
 This repo documents my **daily journey building AI Agents & agentic systems** using **Generative AI, Python, and practical infra**. Every day I upload a folder containing code, notes, datasets, and short demos.
 
-This README is designed to be visually attractive on GitHub using a lightweight animated SVG (no external JS). Save the SVG in `/assets/agent-journey.svg` to see the animation.
-
 ---
 
 ## 🗂️ Recommended repo structure
