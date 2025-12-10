@@ -11,47 +11,6 @@
 ## 🔍 About this repo
 This repo documents my **daily journey building AI Agents & agentic systems** using **Generative AI, Python, and practical infra**. Every day I upload a folder containing code, notes, datasets, and short demos.
 
----
-
-## 🗂️ Recommended repo structure
-```
-/ (root)
-├─ assets/
-│  └─ agent-journey.svg      # animated header (save from below)
-├─ day-2025-12-01/
-│  ├─ code.ipynb
-│  ├─ main.py
-│  └─ notes.md
-├─ day-2025-12-02/
-│  └─ ...
-├─ README.md
-└─ LICENSE
-```
-
----
-
-## 🛠️ How to use this README
-1. **Copy** the SVG content (provided below) into `assets/agent-journey.svg` in your repo.
-2. Keep updating the `day-YYYY-MM-DD` folders — one commit per day if possible.
-3. Use this README as the project landing page, update the short summary at the top of the README weekly.
-
----
-
-## ✨ Features included
-- Animated SVG header showing a rocket (agent) traveling through milestones.
-- Progress trackers and badges (manually update milestones).
-- Clear daily folder layout for recruiters and collaborators.
-
----
-
-## 🧭 Suggested commit message format
-Use consistent commit messages to show cadence:
-```
-Daily: day-2025-12-10 — experimented with action planning + tool-call stub
-```
-
----
-
 ## 📦 Animated SVG (save as `assets/agent-journey.svg`)
 
 > Copy everything between the fenced block and save as `assets/agent-journey.svg`.
