@@ -1,0 +1,32 @@
+This code defines a tool called read_file and registers it using the @register_tool decorator.
+The decorator adds metadata (like name, description, parameters, and tags) so that an AI agent can discover and use this function as a tool.
+
+What the function does
+
+It takes a file path and an optional encoding (default is UTF-8).
+
+Opens the file in read mode.
+
+Returns the entire file's content as a string.
+
+Purpose of the decorator
+
+The @register_tool(tags=["file_operations"]) decorator automatically:
+
+Registers the function as a usable tool.
+
+Stores metadata like its name, docstring, and parameter schema.
+
+Labels it under the "file_operations" tag so agents can categorize it.
+
+Why it matters
+
+This allows your AI agent system to:
+
+Discover this tool programmatically
+
+Show it in a list of available tools
+
+Allow the model to call it via function-calling
+
+Execute the underlying Python function safely
