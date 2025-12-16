@@ -1,0 +1,15 @@
+📚 Today's Learning: Structured Prompting with JSON Output
+
+Objective: Learned how to create prompts that instruct an LLM to return responses strictly in a predefined JSON structure.
+
+Key Points:
+
+Use model_dump_json to serialize user input into JSON for prompt injection.
+
+Clearly define the expected JSON structure (example_response_structure) for consistent parsing.
+
+Instruct the model to respond only with valid JSON, avoiding extra text or formatting.
+
+Benefit: Ensures reliable, machine-readable outputs from language models, essential for building agentic workflows and automated pipelines.
+
+Next Step: Explore validation and error handling for model-generated JSON in real applications.
