@@ -26,3 +26,5 @@ Day 011 - [20-12-2025](https://github.com/aiwithaftab/Agentic-AI-Development-Jou
 Day 012 - [22-12-2025](https://github.com/aiwithaftab/Agentic-AI-Development-Journey/tree/c31cb78afe13128ac7ca95edda8eddf1f1331c17/22-12-2025)
 
 Day 013 - [23-12-2025](https://github.com/aiwithaftab/Agentic-AI-Development-Journey/blob/167463b8447b3f823adbe5be01d5e656b6cf9465/23-12-2025/Tavily.py)
+
+Day 014 - [24-12-2025](https://github.com/aiwithaftab/Agentic-AI-Development-Journey/tree/abe0a624bfe379c39b6f99f9cd1a35bf8da69fab/24-12-2025)
