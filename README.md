@@ -30,3 +30,5 @@ Day 013 - [23-12-2025](https://github.com/aiwithaftab/Agentic-AI-Development-Jou
 Day 014 - [24-12-2025](https://github.com/aiwithaftab/Agentic-AI-Development-Journey/tree/abe0a624bfe379c39b6f99f9cd1a35bf8da69fab/24-12-2025)
 
 Day 015 - [26-12-2025](https://github.com/aiwithaftab/Agentic-AI-Development-Journey/tree/6fe7a3477dfc136117eaa68f0017f51ec5824f5c/26-12-2025)
+
+Day 016 - [27-12-2025](https://github.com/aiwithaftab/Agentic-AI-Development-Journey/tree/06dc80846dd4acfaf248456fac6a723c00093287/27-12-2025)
